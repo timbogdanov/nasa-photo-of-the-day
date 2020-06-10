@@ -13,7 +13,6 @@ function App() {
     axios.get(`${BASE_URL}/planetary/apod?api_key=${API_KEY}`)
     .then(response => {
       setCardState(response.data);
-      console.log(response)
     })
     .catch(error => {
       console.log(error);
