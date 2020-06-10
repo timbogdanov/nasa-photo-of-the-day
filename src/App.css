@@ -38,11 +38,17 @@
 }
 
 
+.card-container {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+
 .card {
-  width: 800px;
-  margin: 100px auto;
-  border-radius: 10px;
+  width: 700px;
   border: 1px solid #CCCCCC;
+  border-radius: 10px
 }
 
 .image-container {
@@ -59,10 +65,10 @@
 .image-container h2 {
   position: absolute;
   bottom: 20px;
-  left: 40px;
+  left: 35px;
   padding: 8px 15px;
-  background: rgba(255,255,255, 0.3);
-  border-radius: 5px;
+  background: rgba(0,0,0, 0.4);
+  border-radius: 1px;
   color: white;
   font-size: 1.1rem;
 }
