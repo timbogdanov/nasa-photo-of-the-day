@@ -37,51 +37,10 @@
   }
 }
 
-
-.card-container {
-  display: grid;
-  height: 100vh;
-  margin: 0;
-  place-items: center center;
-}
-
-.card {
-  width: 700px;
-  border: 1px solid #CCCCCC;
-  border-radius: 10px
-}
-
-.image-container {
-  width: 100%;
-  position: relative;
-}
-
-.image-container img {
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.image-container h2 {
-  position: absolute;
-  bottom: 20px;
-  left: 35px;
-  padding: 8px 15px;
-  background: rgba(0,0,0, 0.4);
-  border-radius: 1px;
-  color: white;
-  font-size: 1.1rem;
-}
-
-.card-info {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.card-info h1 {
+h1 {
   font-weight: 600;
 }
 
-.card-info p {
+p {
   line-height: 1.5;
 }
