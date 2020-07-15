@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.5;
 }
